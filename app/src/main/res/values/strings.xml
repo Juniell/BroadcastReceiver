@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">BroadcastReceiver</string>
+    <string name="path_text">*тут будет указан путь*</string>
+    <string name="info">Скаченное изображение располагается по данному пути:</string>
+</resources>
