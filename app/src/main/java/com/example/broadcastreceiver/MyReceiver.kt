@@ -8,6 +8,6 @@ class MyReceiver : BroadcastReceiver() {
 
     override fun onReceive(context: Context, intent: Intent) {
         val path = intent.getStringExtra("path")
-        (context as MainActivity).changePath(path)
+        (context as MainActivity).changeView(path)
     }
 }
