@@ -22,7 +22,7 @@ class MainActivity : AppCompatActivity() {
 
     fun changeView(uri: String?) {
         if (uri == "null" || uri == null)
-            changeView("Fail")
+            pathView.setText(R.string.failed)
         else {
             pathView.text = uri
             Glide.with(this).load(uri).into(imageView)
